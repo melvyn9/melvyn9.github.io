@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Melvyn NQ Tan's Website
+url: "https://melvyn9.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Melvyn's website
 author:
-  name:
-  email:
+  name: Melvyn Tan
+  email: melvyn9@gmail.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Melvyn Tan
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://www.linkedin.com/in/melvyn-tan-nq-a6a036195/
 
 # -----
 # Build
