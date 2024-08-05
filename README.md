@@ -1,5 +1,7 @@
 # Frisco
 
+To set URL correctly, go to _site and change the name of the folder to the new name. In the index.html file, look for canonical and og:url and set it to the correct URL name.
+
 App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
 Increase the web presence of a App with this configurable theme.
 
