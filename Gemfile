@@ -12,3 +12,6 @@ end
 
 gem 'tzinfo'
 gem 'tzinfo-data'
+gem 'rexml'
+gem 'kramdown', '~> 1.17.0'
+gem 'public_suffix', '< 6.0'
