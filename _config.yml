@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
+  - category_generator
 
 exclude:
   - Gemfile
@@ -46,7 +47,7 @@ collections:
     _icon: account_circle
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/blog/page:num/"
 
 jekyll-archives:
   enabled: ['categories']
