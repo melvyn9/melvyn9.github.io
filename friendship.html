@@ -19,13 +19,8 @@ permalink: /category/friendship/
       <p class="change-category">You're currently looking at projects categorized under <strong>{{ page.title | capitalize }}</strong>. <a href="{{ site.baseurl }}/projects/">View all projects</a> instead.</p>
   
       <ul class="blog-posts">
-        {% for post in site.posts %}
-          {% if post.categories contains 'friendship' %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
+        {% assign filtered_posts = site.posts | where: "categories", "friendship" %}
+        {% include list-posts.html posts=filtered_posts %}
       </ul>
     </div>
   </section>
