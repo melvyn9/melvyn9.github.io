@@ -3,7 +3,7 @@ title: What is a friend?
 date: 2016-07-20
 description: Exploring the mechanics of friendship
 categories:
-  - friends
+  - friendship
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
 author_staff_member: anna
 ---
