@@ -1,6 +1,7 @@
 ---
 title:
-date:
+start_date:
+end_date:
 description:
 categories:
 image:
