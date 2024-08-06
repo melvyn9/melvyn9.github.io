@@ -3,7 +3,7 @@
 
 title: Melvyn NQ Tan's Website
 url: "https://melvyn9.github.io/"
-baseurl:
+baseurl: "/melvyn9.github.io"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -46,7 +46,7 @@ collections:
     _icon: account_circle
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/projects/:num/"
 
 jekyll-archives:
   enabled: ['categories']
