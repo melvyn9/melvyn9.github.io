@@ -1,0 +1,25 @@
+---
+title: Friendship
+description: We've built an amazing team of developers, marketers, designers and sales people.
+image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
+permalink: /category/friendship/
+---
+
+<section class="hero" style="background-image: url(https://source.unsplash.com/MqJX_8EaStM/2000x1322)">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>Projects Categorized Under {{ page.title | capitalize }}</h1>
+			<p class="subtext">These projects highlight my work in {{ page.title | capitalize }}.</p>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="text-container">
+		<p class="change-category">You're currently looking at projects categorised under <strong>{{ page.title | capitalize }}</strong>. <a href="{{ site.baseurl }}/projects/">View all projects</a> instead.</p>
+
+		<ul class="blog-posts">
+			{% include list-posts.html posts=page.posts %}
+		</ul>
+	</div>
+</section>
