@@ -33,7 +33,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
-  - category_generator
 
 exclude:
   - Gemfile
